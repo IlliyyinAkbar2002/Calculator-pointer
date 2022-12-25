@@ -2,6 +2,7 @@
 #include <iostream>
 #include <math.h>
 #include <stdio.h>
+#include<stdlib.h
 using namespace std;
 
 void Clear(){
@@ -51,7 +52,7 @@ int main() {
                 cout << "You can't divided by 0";
                 return 0;
             }
-            printf("%d / %d = %d", num1, num2, (*ptr1 /(float) *ptr2));
+            printf("%d / %d = %0.1f", num1, num2, (*ptr1 /(double) *ptr2));
             break;
         default :
             cout << "Wrong choice and try again!";
